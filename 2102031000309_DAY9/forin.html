@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+const person = {fname:"dhruvanshi", lname:"vastani", age:19}; 
+let text = "";
+
+for (let x in person) {
+  text += person[x] + " ";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
